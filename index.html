@@ -5,11 +5,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | [Blogr]</title>
 </head>
 
 <body>
   <div class="nav-container">
+    <img src="images/logo.svg" alt="Blogr logo" class="nav-logo">
     <nav class="nav">
       <details class="nav__details">
         <summary class="nav__item nav__item--summary">Product</summary>
@@ -46,15 +48,20 @@
         Sign Up
       </button>
     </nav>
+
+    <div class="hamburger__container">
+      <input type="checkbox" class="hamburger" id="hamburger">
+      <label class="hamgurger-label" for="hamburger"></label>
+    </div>
   </div>
 
   <main class="main">
     <section class="intro">
-      <h1>A modern publishing platform</h1>
-      <p>Grow your audience and build your online brand</p>
+      <h1 class="intro__title f-6 f-l">A modern publishing platform</h1>
+      <p class="intro__text f-3 f-m">Grow your audience and build your online brand</p>
 
-      <button class="button button--primary">Start for Free</button>
-      <button class="button button--secondary">Learn More</button>
+      <button class="intro__button intro__button--primary f-7 f-s">Start for Free</button>
+      <button class="intro__button intro__button--secondary f-7 f-s">Learn More</button>
     </section>
 
     <section class="content">
