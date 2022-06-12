@@ -1,0 +1,15 @@
+:root {
+	--f-overpass: "Overpass", sans-serif;
+	--f-ubuntu: "Ubuntu", sans-serif;
+	--fw-3: 300;
+	--fw-4: 400;
+	--fw-5: 500;
+	--fw-6: 600;
+	--fw-7: 700;
+	--fs-s: 1rem;
+	--fs-m: 1.2rem;
+	--fs-l: 2rem;
+	--fc-p: hsl(208, 49%, 24%);
+	--fc-s: hsl(207, 13%, 34%);
+	--fc-w: hsl(0, 0%, 100%);
+}

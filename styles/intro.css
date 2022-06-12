@@ -6,7 +6,7 @@
 	background-image: url("/images/bg-pattern-intro-mobile.svg"),
 		linear-gradient(var(--bg-g-very-light-red), var(--bg-g-light-red));
 
-	padding: calc(40% + 5rem) var(--gap-10) 40% var(--gap-10);
+	padding: calc(35% + 4rem) var(--gap-10) 35% var(--gap-10); /* 8rem is the hight of the nav bar*/
 	gap: 2ch;
 	display: flex;
 	flex-wrap: wrap;
@@ -17,19 +17,29 @@
 
 .intro__title {
 	flex-basis: 100%;
-	color: white;
+	color: var(--fc-w);
+	font-family: var(--f-overpass);
+	font-weight: var(--fw-6);
+	font-size: var(--fs-l);
 }
 
 .intro__text {
 	flex-basis: 100%;
-	color: white;
+	color: var(--fc-w);
+	margin-bottom: 3ch;
+	font-family: var(--f-overpass);
+	font-weight: var(--fw-3);
+	font-size: var(--fs-m);
 }
 
 .intro__button {
 	flex-basis: 15ch;
-	padding: var(--gap-5);
+	padding: 1.5ch 0;
 	border-radius: 2rem;
 	border: none;
+	font-family: var(--f-ubuntu);
+	font-weight: var(--fw-7);
+	font-size: var(--fs-s);
 }
 .intro__button--primary {
 	background-color: white;
@@ -38,6 +48,6 @@
 
 .intro__button--secondary {
 	background-color: transparent;
-	color: white;
+	color: var(--fc-w);
 	outline: 1px solid white;
 }
