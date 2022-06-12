@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	/* ### primary */
+	--p-light-red--cta-text: hsl(356, 100%, 66%);
+	--p-very-light-red--cta-hover-background: hsl(355, 100%, 74%);
+	--p-very-dark-blue--headings: hsl(208, 49%, 24%);
+
+	/* ### neutral */
+	--n-white--text: hsl(0, 0%, 100%);
+	--n-grayish-blue--footer-text: hsl(240, 2%, 79%);
+	--n-very-dark-grayish-blue--body-copy: hsl(207, 13%, 34%);
+	--n-very-dark-black-blue--footer-background: hsl(240, 10%, 16%);
+
+	/* ### gradient */
+	/* background gradient - intro/cta mobile nav: */
+	--bg-g-very-light-red: hsl(13, 100%, 72%);
+	--bg-g-light-red: hsl(353, 100%, 62%);
+
+	/* background gradient - body: */
+	--bg-g-very-dark-gray-blue: hsl(237, 17%, 21%);
+	--bg-g-very-dark-desaturated-blue: hsl(237, 23%, 32%);
+}
+
+.f-3 {
+	font-family: "Overpass", sans-serif;
+	font-weight: 300;
+}
+.f-4 {
+	font-family: "Ubuntu", sans-serif;
+	font-weight: 400;
+}
+.f-5 {
+	font-family: "Ubuntu", sans-serif;
+	font-weight: 500;
+}
+.f-6 {
+	font-family: "Overpass", sans-serif;
+	font-weight: 600;
+}
+.f-7 {
+	font-family: "Ubuntu", sans-serif;
+	font-weight: 700;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+.footer {
+	font-size: 11px;
+	text-align: center;
+}
+
+.footer__link {
+	color: hsl(228, 45%, 44%);
+}
