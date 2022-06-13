@@ -6,13 +6,14 @@
 	background-image: url("/images/bg-pattern-intro-mobile.svg"),
 		linear-gradient(var(--bg-g-very-light-red), var(--bg-g-light-red));
 
-	padding: calc(35% + 4rem) var(--gap-10) 35% var(--gap-10); /* 8rem is the hight of the nav bar*/
+	padding: 12rem var(--gap-10) 10rem var(--gap-10); /* 8rem is the hight of the nav bar*/
 	gap: 2ch;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 	text-align: center;
 	border-bottom-left-radius: var(--curve);
+	max-height: min-content;
 }
 
 .intro__title {
@@ -20,7 +21,7 @@
 	color: var(--fc-w);
 	font-family: var(--f-overpass);
 	font-weight: var(--fw-6);
-	font-size: var(--fs-l);
+	font-size: var(--fs-xl);
 }
 
 .intro__text {
