@@ -34,13 +34,35 @@
 }
 
 .footer__attribution {
+	text-align: center;
 	font-family: var(--f-overpass);
 	font-size: var(--fs-xs);
 	position: absolute;
+	transform: translateX(-50%);
+	left: 50%;
 	color: var(--n-grayish-blue--footer-text);
 	bottom: 1ch;
 }
 
 .footer__link {
 	color: var(--p-light-red--cta-text);
+}
+
+@media screen and (min-width: 640px) {
+	.footer {
+		width: 100%;
+		padding: 5rem 10rem;
+		gap: 12rem;
+		flex-direction: row;
+		align-items: flex-start;
+		text-align: left;
+	}
+
+	.footer__header {
+		font-size: var(--fs-s);
+	}
+
+	.footer__item {
+		font-size: var(--fs-s);
+	}
 }
