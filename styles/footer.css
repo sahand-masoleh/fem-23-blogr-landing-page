@@ -1,0 +1,46 @@
+.footer {
+	background-color: var(--n-very-dark-black-blue--footer-background);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 2rem;
+	padding: 5rem 1rem;
+	position: relative;
+	text-align: center;
+	border-top-right-radius: 6rem;
+}
+
+.footer__logo {
+	margin-bottom: 2rem;
+}
+
+.footer__header {
+	font-family: var(--f-ubuntu);
+	font-weight: var(--fw-4);
+	font-size: var(--fs-m);
+	color: var(--fc-w);
+	margin-bottom: 3ch;
+	cursor: pointer;
+}
+
+.footer__item {
+	font-family: var(--f-overpass);
+	font-weight: var(--fw-3);
+	font-size: var(--fs-m);
+	color: var(--n-grayish-blue--footer-text);
+	list-style: none;
+	margin-bottom: 1ch;
+	cursor: pointer;
+}
+
+.footer__attribution {
+	font-family: var(--f-overpass);
+	font-size: var(--fs-xs);
+	position: absolute;
+	color: var(--n-grayish-blue--footer-text);
+	bottom: 1ch;
+}
+
+.footer__link {
+	color: var(--p-light-red--cta-text);
+}
