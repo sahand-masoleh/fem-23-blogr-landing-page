@@ -127,9 +127,9 @@
 		height: unset;
 		/* */
 		justify-content: flex-start;
-		padding: 0 10%;
+		padding: 0 min(10%, 8rem);
 		margin-top: 4rem;
-		gap: 5rem;
+		gap: min(5%, 5rem);
 	}
 
 	.nav {
@@ -147,7 +147,7 @@
 		flex-direction: row;
 		align-items: center;
 		justify-content: flex-start;
-		gap: 2rem;
+		gap: min(5%, 2rem);
 		font-family: var(--f-ubuntu);
 		font-weight: var(--fw-5);
 	}

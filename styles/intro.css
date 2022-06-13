@@ -1,12 +1,11 @@
 .intro {
-	background-position: center;
+	background-position: 40% 30%;
 	background-repeat: no-repeat;
-	background-size: 400%;
-	background-clip: padding-box;
+	background-size: 300%;
 	background-image: url("/images/bg-pattern-intro-mobile.svg"),
 		linear-gradient(var(--bg-g-very-light-red), var(--bg-g-light-red));
 
-	padding: 12rem var(--gap-10) 10rem var(--gap-10); /* 8rem is the hight of the nav bar*/
+	padding: min(12rem, 60%) var(--gap-10) min(10rem, 50%) var(--gap-10); /* 8rem is the hight of the nav bar*/
 	gap: 2ch;
 	display: flex;
 	flex-wrap: wrap;
@@ -55,6 +54,11 @@
 }
 
 @media screen and (min-width: 640px) {
+	.intro {
+		background-image: url("/images/bg-pattern-intro-desktop.svg"),
+			linear-gradient(var(--bg-g-very-light-red), var(--bg-g-light-red));
+	}
+
 	.intro__title {
 		font-size: var(--fs-xxxl);
 	}
