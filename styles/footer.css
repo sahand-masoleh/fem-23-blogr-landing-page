@@ -51,11 +51,20 @@
 @media screen and (min-width: 640px) {
 	.footer {
 		width: 100%;
-		padding: 5rem 10rem;
-		gap: 12rem;
+		padding: min(5rem, 10%) min(10rem, 10vw);
 		flex-direction: row;
 		align-items: flex-start;
 		text-align: left;
+	}
+
+	.footer__logo {
+		max-width: fit-content;
+		margin-right: min(10rem, 10vw);
+	}
+
+	.footer__list {
+		flex-basis: 20%;
+		flex-grow: 1;
 	}
 
 	.footer__header {
@@ -64,5 +73,8 @@
 
 	.footer__item {
 		font-size: var(--fs-s);
+	}
+	.footer__item:hover {
+		text-decoration: underline;
 	}
 }

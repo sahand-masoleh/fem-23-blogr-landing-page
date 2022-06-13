@@ -130,6 +130,8 @@
 		padding: 0 min(10%, 8rem);
 		margin-top: 4rem;
 		gap: min(5%, 5rem);
+		left: 50%;
+		transform: translateX(-50%);
 	}
 
 	.nav {

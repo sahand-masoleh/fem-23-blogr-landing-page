@@ -4,6 +4,7 @@
 	align-items: center;
 	gap: 3rem;
 	margin: 5rem 0;
+	overflow: hidden;
 }
 
 .content__slogan {
@@ -73,9 +74,9 @@
 	color: var(--fc-w);
 }
 
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 960px) {
 	.content {
-		margin: 10rem 0 5rem 0;
+		padding: min(6rem, 10%) 0 min(5rem, 10%) 0;
 	}
 
 	.content__slogan {
@@ -84,8 +85,8 @@
 
 	.section {
 		gap: unset;
-		max-width: 100%;
 		/* */
+		max-width: 100%;
 		display: grid;
 		text-align: left;
 		grid-template-columns: 1fr 1fr;
@@ -96,25 +97,32 @@
 		grid-template-rows: 1fr 1fr;
 	}
 	.section--top {
-		margin: 5rem 0 18rem 0;
+		margin: min(5rem, 10%) 0 min(18rem, 20%) 0;
 	}
 	.section--bottom {
-		margin: 15rem 0;
+		margin: min(15rem, 20%) 0;
 	}
 	.section--middle {
 		margin-top: unset;
 		/* */
+		background: url("/images/bg-pattern-circles.svg") no-repeat,
+			linear-gradient(
+				to right,
+				var(--bg-g-very-dark-gray-blue),
+				var(--bg-g-very-dark-desaturated-blue)
+			);
 		grid-template-rows: 1fr;
-		background-size: 65%;
-		background-position: -12rem -30rem;
+		background-position: -50% 100%;
 		justify-content: center;
 		padding: 0 8%;
 	}
 
 	.section__picture--middle {
 		position: unset;
-		margin: -4rem 0 -7rem 0;
-		width: 90%;
+		margin: max(-5rem, -15%) 0;
+		/* margin: -5rem 0; */
+		max-width: unset;
+		transform: none;
 	}
 	.section__picture--top,
 	.section__picture--bottom {
@@ -122,10 +130,10 @@
 	}
 	.section__picture--top {
 		grid-column: 2/3;
-		margin-left: 5rem;
+		margin-left: min(5rem, 15%);
 	}
 	.section__picture--bottom {
-		padding-right: 7rem;
+		padding-right: min(7rem, 20%);
 	}
 
 	.section--top::before {
@@ -135,7 +143,7 @@
 		height: 60rem;
 		right: -20rem;
 		background: url("/images/bg-pattern-circles-small.svg") no-repeat center;
-		background-size: cover;
+		background-size: 100%;
 		z-index: -1;
 	}
 
@@ -162,16 +170,16 @@
 		align-self: end;
 	}
 	.article--top {
-		padding-left: 5rem;
+		padding-left: min(5rem, 15%);
 	}
 	.article--middle {
-		margin-top: unset;
-		margin-bottom: unset;
+		margin: 1rem;
+		margin-left: min(10%, 5ch);
 		align-self: center !important;
 	}
 	.article--middle,
 	.article--bottom {
-		padding-right: 5rem;
+		padding-right: min(5rem, 10%);
 	}
 
 	.article__title {
