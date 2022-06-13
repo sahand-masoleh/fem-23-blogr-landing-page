@@ -36,6 +36,17 @@
 	--curve: 7rem;
 }
 
+body {
+	display: grid;
+	justify-content: center;
+}
+
+.main,
+.nav-container,
+.footer {
+	max-width: 1440px;
+}
+
 .pointer {
 	cursor: pointer;
 }

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="326"
+   height="326"
+   version="1.1"
+   id="svg80"
+   sodipodi:docname="bg-pattern-circles-small.svg"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview82"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="2.3816156"
+     inkscape:cx="163.12456"
+     inkscape:cy="162.91462"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg80" />
+  <defs
+     id="defs22">
+    <linearGradient
+       x1="0"
+       y1="0.27794999"
+       x2="1"
+       y2="0.72205001"
+       id="c">
+      <stop
+         stop-color="#FF8F71"
+         offset="0%"
+         id="stop2" />
+      <stop
+         stop-color="#FF3E55"
+         offset="100%"
+         id="stop4" />
+    </linearGradient>
+    <filter
+       x="-0.14634146"
+       y="-0.25396824"
+       width="1.2926829"
+       height="1.6137567"
+       filterUnits="objectBoundingBox"
+       id="a">
+      <feOffset
+         dy="20"
+         in="SourceAlpha"
+         result="shadowOffsetOuter1"
+         id="feOffset7" />
+      <feGaussianBlur
+         stdDeviation="20"
+         in="shadowOffsetOuter1"
+         result="shadowBlurOuter1"
+         id="feGaussianBlur9" />
+      <feColorMatrix
+         values="0 0 0 0 0.421821759 0 0 0 0 0.554338424 0 0 0 0 0.893710371 0 0 0 0.243444056 0"
+         in="shadowBlurOuter1"
+         result="shadowMatrixOuter1"
+         id="feColorMatrix11" />
+      <feMerge
+         id="feMerge17">
+        <feMergeNode
+           in="shadowMatrixOuter1"
+           id="feMergeNode13" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode15" />
+      </feMerge>
+    </filter>
+    <rect
+       id="b"
+       x="0"
+       y="0"
+       width="237"
+       height="157.94"
+       rx="3" />
+    <path
+       d="m 3,0 h 321.953 a 3,3 0 0 1 3,3 V 7.602 H 0 V 3 A 3,3 0 0 1 3,0 Z"
+       id="e" />
+  </defs>
+  <g
+     fill="none"
+     fill-rule="evenodd"
+     id="g78"
+     transform="translate(-86,-17)">
+    <g
+       transform="translate(86,17)"
+       id="g30">
+      <rect
+         fill="#2d2e40"
+         opacity="0.08"
+         transform="matrix(1,0,0,-1,0,329)"
+         x="52"
+         y="53"
+         width="223"
+         height="223"
+         rx="111.5"
+         id="rect24" />
+      <rect
+         stroke="#2d2e40"
+         opacity="0.5"
+         transform="matrix(1,0,0,-1,0,326)"
+         x="37.5"
+         y="37.5"
+         width="251"
+         height="251"
+         rx="125.5"
+         id="rect26" />
+      <rect
+         stroke="#2d2e40"
+         opacity="0.25"
+         transform="matrix(1,0,0,-1,0,326)"
+         x="0.5"
+         y="0.5"
+         width="325"
+         height="325"
+         rx="162.5"
+         id="rect28" />
+    </g>
+  </g>
+</svg>

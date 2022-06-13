@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   width="795.00006"
-   height="519"
+   width="612"
+   height="387"
    version="1.1"
    id="svg78"
    sodipodi:docname="illustration-laptop-desktop.svg"
@@ -22,8 +22,8 @@
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
      inkscape:zoom="1.0877863"
-     inkscape:cx="346.11579"
-     inkscape:cy="249.12982"
+     inkscape:cx="313.02104"
+     inkscape:cy="235.34034"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
      inkscape:window-x="-8"
@@ -35,8 +35,8 @@
     <linearGradient
        x1="0"
        y1="115.30672"
-       x2="412.25142"
-       y2="296.94468"
+       x2="412.25143"
+       y2="296.94467"
        id="c"
        gradientTransform="scale(1.2274063,0.81472613)"
        gradientUnits="userSpaceOnUse">
@@ -51,9 +51,9 @@
     </linearGradient>
     <filter
        x="-0.068669528"
-       y="-0.1191067"
+       y="-0.12403101"
        width="1.1373391"
-       height="1.2878412"
+       height="1.2997416"
        filterUnits="objectBoundingBox"
        id="a">
       <feOffset
@@ -96,7 +96,7 @@
      fill="none"
      fill-rule="evenodd"
      id="g76"
-     transform="translate(-142,-144)">
+     transform="translate(-277.00004,-160)">
     <g
        transform="translate(190,192)"
        filter="url(#a)"
@@ -106,23 +106,26 @@
          fill="#535353"
          fill-rule="nonzero"
          x="82"
-         y="16"
+         y="-32"
          width="538"
          height="368"
          rx="12"
-         id="rect30" />
+         id="rect30"
+         style="display:inline" />
       <rect
          fill="#1d1d25"
          fill-rule="nonzero"
          x="85"
-         y="19"
+         y="-29"
          width="532"
          height="362"
          rx="10"
-         id="rect32" />
+         id="rect32"
+         style="display:inline" />
       <g
-         transform="translate(99,32)"
-         id="g55">
+         transform="translate(99,-16)"
+         id="g55"
+         style="display:inline">
         <mask
            id="d"
            fill="#ffffff">
@@ -197,29 +200,9 @@
         </g>
       </g>
       <g
-         transform="translate(349)"
-         fill="#4a5166"
-         fill-rule="nonzero"
-         opacity="0.098"
-         id="g61">
-        <rect
-           width="13.6"
-           height="3"
-           rx="1.5"
-           id="rect57"
-           x="0"
-           y="0" />
-        <rect
-           x="16.799999"
-           width="3.2"
-           height="3"
-           rx="1.5"
-           id="rect59"
-           y="0" />
-      </g>
-      <g
-         transform="translate(0,380)"
-         id="g70">
+         transform="translate(0,332)"
+         id="g70"
+         style="display:inline">
         <mask
            id="f"
            fill="#ffffff">
@@ -244,10 +227,11 @@
            id="rect68" />
       </g>
       <path
-         d="m 0,397 h 699 a 6,6 0 0 1 -6,6 H 6 a 6,6 0 0 1 -6,-6 z"
+         d="m 0,349 h 699 a 6,6 0 0 1 -6,6 H 6 a 6,6 0 0 1 -6,-6 z"
          fill="#393a56"
          fill-rule="nonzero"
-         id="path72" />
+         id="path72"
+         style="display:inline" />
     </g>
   </g>
 </svg>
