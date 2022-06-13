@@ -12,7 +12,12 @@
 	--fs-l: 1.6rem;
 	--fs-xl: 2rem;
 	--fs-xxl: 2.5rem;
+	--fs-xxxl: 4rem;
 	--fc-p: hsl(208, 49%, 24%);
 	--fc-s: hsl(207, 13%, 34%);
 	--fc-w: hsl(0, 0%, 100%);
+	--fc-g: hsl(0, 0%, 90%);
+}
+
+@media screen and (min-width: 640px) {
 }

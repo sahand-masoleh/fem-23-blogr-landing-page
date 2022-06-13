@@ -158,12 +158,12 @@
 	}
 
 	.nav__item {
-		color: var(--fc-w) !important;
+		color: var(--fc-g) !important;
 		font-size: var(--fs-s);
-		opacity: 0.8;
 	}
 	.nav__item:hover {
-		opacity: 1;
+		color: var(--fc-w) !important;
+		text-decoration: underline;
 	}
 
 	.nav__triangle {
@@ -179,13 +179,18 @@
 	}
 
 	.nav__item--button {
-		padding: 2ch 5ch;
+		padding: 2ch;
 		border: none;
 		background-image: none;
 		/* */
-		background-color: white;
-		color: var(--p-light-red--cta-text);
+		width: 10rem;
 		opacity: 1;
+		background-color: white;
+		color: var(--p-light-red--cta-text) !important;
+	}
+	.nav__item--button:hover {
+		color: var(--fc-w) !important;
+		background-color: var(--p-very-light-red--cta-hover-background);
 	}
 
 	.nav__menu {

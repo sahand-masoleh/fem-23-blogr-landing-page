@@ -53,3 +53,23 @@
 	color: var(--fc-w);
 	outline: 1px solid white;
 }
+
+@media screen and (min-width: 640px) {
+	.intro__title {
+		font-size: var(--fs-xxxl);
+	}
+
+	.intro__text {
+		color: var(--fc-g);
+	}
+
+	.intro__button--primary:hover {
+		color: var(--fc-w) !important;
+		background-color: var(--p-very-light-red--cta-hover-background);
+	}
+
+	.intro__button--secondary:hover {
+		background-color: white;
+		color: var(--p-light-red--cta-text);
+	}
+}
