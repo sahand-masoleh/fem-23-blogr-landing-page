@@ -32,7 +32,6 @@ Users should be able to:
 
 - HTML
 - CSS
-- React JS
 
 ## Author
 

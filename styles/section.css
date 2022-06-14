@@ -25,7 +25,7 @@
 }
 
 .section--middle {
-	background: url("./images/bg-pattern-circles.svg") no-repeat;
+	background: url("../images/bg-pattern-circles.svg") no-repeat;
 	background-position: center -20rem;
 	background-size: 160%;
 	background-color: var(--bg-g-very-dark-gray-blue);
@@ -105,7 +105,7 @@
 	.section--middle {
 		margin-top: unset;
 		/* */
-		background: url("./images/bg-pattern-circles.svg") no-repeat,
+		background: url("../images/bg-pattern-circles.svg") no-repeat,
 			linear-gradient(
 				to right,
 				var(--bg-g-very-dark-gray-blue),
@@ -142,7 +142,7 @@
 		width: 60rem;
 		height: 60rem;
 		right: -20rem;
-		background: url("./images/bg-pattern-circles-small.svg") no-repeat center;
+		background: url("../images/bg-pattern-circles-small.svg") no-repeat center;
 		background-size: 100%;
 		z-index: -1;
 	}
@@ -153,7 +153,7 @@
 		width: 50rem;
 		height: 50rem;
 		left: -20rem;
-		background: url("./images/bg-pattern-circles-small.svg") no-repeat center;
+		background: url("../images/bg-pattern-circles-small.svg") no-repeat center;
 		background-size: cover;
 		z-index: -1;
 	}
