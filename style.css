@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap");
 
-@import url("/styles/fonts.css");
-@import url("/styles/nav.css");
-@import url("/styles/intro.css");
-@import url("/styles/section.css");
-@import url("/styles/footer.css");
+@import url("./styles/fonts.css");
+@import url("./styles/nav.css");
+@import url("./styles/intro.css");
+@import url("./styles/section.css");
+@import url("./styles/footer.css");
 
 * {
 	margin: 0;
